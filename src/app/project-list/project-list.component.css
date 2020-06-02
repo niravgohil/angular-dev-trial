@@ -1,0 +1,630 @@
+.project_list {
+  background-color: #eeeeee;
+  padding: 40px;
+}
+.head {
+  background-color: #c2f5aa;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+}
+.head_image {
+  width: 200px;
+  height: 200px;
+}
+.head_title {
+  font-size: 30px;
+  margin-left: 15px;
+  font-weight: normal;
+  vertical-align: center;
+}
+
+.tile_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tile {
+  width: 49%;
+  padding: 15px 0;
+}
+
+.tile_image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../../assets/Tile_Image.jpg");
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  position: relative;
+}
+
+.tile_buy_container {
+  position: absolute;
+  right: 10px;
+}
+
+.tile_buy_btn {
+  background-color: #0b8d37;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 22px;
+  padding: 10px;
+}
+
+.tile_price {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  font-weight: 800;
+  margin: 10px;
+}
+
+.tile_place_container {
+  margin: 30px 0px 20px 10px;
+}
+.tile_place {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+  font-weight: 800;
+  position: absolute;
+  bottom: 20px;
+}
+
+.tile_content {
+  background-color: #ffffff;
+  padding: 15px;
+}
+.tile_name {
+  color: #e12363;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 5px 0;
+}
+.tile_space {
+  color: #06c551;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 5px 0;
+}
+.tile_description {
+  font-size: 16px;
+}
+
+@media (max-width: 575.98px) {
+  .project_list {
+    background-color: #eeeeee;
+    padding: 5px;
+  }
+  .head {
+    background-color: #c2f5aa;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+  }
+  .head_image {
+    width: 120px;
+    height: 120px;
+  }
+  .head_title {
+    font-size: 16px;
+    margin-left: 15px;
+    font-weight: normal;
+    vertical-align: center;
+  }
+
+  .tile_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .tile {
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  .tile_image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../../assets/Tile_Image.jpg");
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    position: relative;
+  }
+
+  .tile_buy_container {
+    position: absolute;
+    right: 10px;
+  }
+
+  .tile_buy_btn {
+    background-color: #0b8d37;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .tile_price {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+    font-weight: 800;
+    margin: 10px;
+  }
+
+  .tile_place_container {
+    margin: 30px 0px 20px 10px;
+  }
+  .tile_place {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-size: 8px;
+    text-align: left;
+    padding: 10px;
+    font-weight: 800;
+    position: absolute;
+    bottom: 20px;
+    max-width: 225px;
+  }
+
+  .tile_content {
+    background-color: #ffffff;
+    padding: 15px;
+  }
+  .tile_name {
+    color: #e12363;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 5px 0;
+  }
+  .tile_space {
+    color: #06c551;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 5px 0;
+  }
+  .tile_description {
+    font-size: 14px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .project_list {
+    background-color: #eeeeee;
+    padding: 5px;
+  }
+  .head {
+    background-color: #c2f5aa;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+  }
+  .head_image {
+    width: 120px;
+    height: 120px;
+  }
+  .head_title {
+    font-size: 16px;
+    margin-left: 15px;
+    font-weight: normal;
+    vertical-align: center;
+  }
+
+  .tile_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .tile {
+    width: 49%;
+    padding: 15px 0;
+  }
+
+  .tile_image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../../assets/Tile_Image.jpg");
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    position: relative;
+  }
+
+  .tile_buy_container {
+    position: absolute;
+    right: 10px;
+  }
+
+  .tile_buy_btn {
+    background-color: #0b8d37;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .tile_price {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+    font-weight: 800;
+    margin: 10px;
+  }
+
+  .tile_place_container {
+    margin: 30px 0px 20px 10px;
+  }
+  .tile_place {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-size: 8px;
+    text-align: left;
+    padding: 10px;
+    font-weight: 800;
+    position: absolute;
+    bottom: 20px;
+    max-width: 225px;
+  }
+
+  .tile_content {
+    background-color: #ffffff;
+    padding: 15px;
+  }
+  .tile_name {
+    color: #e12363;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 5px 0;
+  }
+  .tile_space {
+    color: #06c551;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 5px 0;
+  }
+  .tile_description {
+    font-size: 14px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .project_list {
+    background-color: #eeeeee;
+    padding: 5px;
+  }
+  .head {
+    background-color: #c2f5aa;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+  }
+  .head_image {
+    width: 120px;
+    height: 120px;
+  }
+  .head_title {
+    font-size: 16px;
+    margin-left: 15px;
+    font-weight: normal;
+    vertical-align: center;
+  }
+
+  .tile_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .tile {
+    width: 49%;
+    padding: 15px 0;
+  }
+
+  .tile_image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../../assets/Tile_Image.jpg");
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    position: relative;
+  }
+
+  .tile_buy_container {
+    position: absolute;
+    right: 10px;
+  }
+
+  .tile_buy_btn {
+    background-color: #0b8d37;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .tile_price {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+    font-weight: 800;
+    margin: 10px;
+  }
+
+  .tile_place_container {
+    margin: 30px 0px 20px 10px;
+  }
+  .tile_place {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-size: 8px;
+    text-align: left;
+    padding: 10px;
+    font-weight: 800;
+    position: absolute;
+    bottom: 20px;
+    max-width: 225px;
+  }
+
+  .tile_content {
+    background-color: #ffffff;
+    padding: 15px;
+  }
+  .tile_name {
+    color: #e12363;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 5px 0;
+  }
+  .tile_space {
+    color: #06c551;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 5px 0;
+  }
+  .tile_description {
+    font-size: 14px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .project_list {
+    background-color: #eeeeee;
+    padding: 5px;
+  }
+  .head {
+    background-color: #c2f5aa;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+  }
+  .head_image {
+    width: 120px;
+    height: 120px;
+  }
+  .head_title {
+    font-size: 16px;
+    margin-left: 15px;
+    font-weight: normal;
+    vertical-align: center;
+  }
+
+  .tile_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .tile {
+    width: 49%;
+    padding: 15px 0;
+  }
+
+  .tile_image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../../assets/Tile_Image.jpg");
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    position: relative;
+  }
+
+  .tile_buy_container {
+    position: absolute;
+    right: 10px;
+  }
+
+  .tile_buy_btn {
+    background-color: #0b8d37;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .tile_price {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+    font-weight: 800;
+    margin: 10px;
+  }
+
+  .tile_place_container {
+    margin: 30px 0px 20px 10px;
+  }
+  .tile_place {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-size: 8px;
+    text-align: left;
+    padding: 10px;
+    font-weight: 800;
+    position: absolute;
+    bottom: 20px;
+    max-width: 225px;
+  }
+
+  .tile_content {
+    background-color: #ffffff;
+    padding: 15px;
+  }
+  .tile_name {
+    color: #e12363;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 5px 0;
+  }
+  .tile_space {
+    color: #06c551;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 5px 0;
+  }
+  .tile_description {
+    font-size: 14px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .project_list {
+    background-color: #eeeeee;
+    padding: 5px;
+  }
+  .head {
+    background-color: #c2f5aa;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+  }
+  .head_image {
+    width: 120px;
+    height: 120px;
+  }
+  .head_title {
+    font-size: 16px;
+    margin-left: 15px;
+    font-weight: normal;
+    vertical-align: center;
+  }
+
+  .tile_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .tile {
+    width: 49%;
+    padding: 15px 0;
+  }
+
+  .tile_image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../../assets/Tile_Image.jpg");
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    position: relative;
+  }
+
+  .tile_buy_container {
+    position: absolute;
+    right: 10px;
+  }
+
+  .tile_buy_btn {
+    background-color: #0b8d37;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .tile_price {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    font-weight: 800;
+    margin: 10px;
+  }
+
+  .tile_place_container {
+    margin: 30px 0px 20px 10px;
+  }
+  .tile_place {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-size: 12px;
+    text-align: left;
+    padding: 10px;
+    font-weight: 800;
+    position: absolute;
+    bottom: 20px;
+    max-width: 360px;
+  }
+
+  .tile_content {
+    background-color: #ffffff;
+    padding: 15px;
+  }
+  .tile_name {
+    color: #e12363;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 5px 0;
+  }
+  .tile_space {
+    color: #06c551;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 5px 0;
+  }
+  .tile_description {
+    font-size: 14px;
+  }
+}
